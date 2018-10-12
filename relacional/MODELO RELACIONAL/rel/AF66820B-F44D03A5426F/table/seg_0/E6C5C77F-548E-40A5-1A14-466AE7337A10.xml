@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6C5C77F-548E-40A5-1A14-466AE7337A10" name="TLB_ESTRELLAS">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:37:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ESTRELLA" id="9F8C681C-14E2-8343-4756-16A97C71B17E">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:39:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REPOSITORIO" id="5C07D8FF-B4CB-F081-B373-675A287CB53E">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:39:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B0AD4B08-380F-1894-AD69-4E77ED317B34</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AB82BF4-FEA1-ACF4-41EB-6FE05E00B3FC" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+</associations>
+</Column>
+<Column name="COD_USUARIO" id="866DFDB9-C82C-FFA2-AA91-861E922256A9">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:39:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>50B642A0-7753-705A-4736-90DACC3AE779</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27FD620E-CC8D-35BC-3B54-7E61ABF5CF25" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10A29E3E-5CF5-8A0E-B99B-54D9BACB5CA3" name="TLB_ESTRELLAS_PK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:39:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F8C681C-14E2-8343-4756-16A97C71B17E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42B7D52E-5EA4-5D90-7A39-7F6E2A0A5322" name="TLB_ESTRELLAS_TBL_REPOSITORIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:39:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C07D8FF-B4CB-F081-B373-675A287CB53E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A70AC6D-8580-A315-B4DF-4AF3DB737172" name="TLB_ESTRELLAS_TLB_USUARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:39:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="866DFDB9-C82C-FFA2-AA91-861E922256A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

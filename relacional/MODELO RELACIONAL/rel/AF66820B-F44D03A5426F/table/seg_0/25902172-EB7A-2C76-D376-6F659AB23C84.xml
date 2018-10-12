@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25902172-EB7A-2C76-D376-6F659AB23C84" name="TLB_COMENTARIOS">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:27:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_COMENTARIO" id="A0BA3E40-1107-6D82-8647-8F48F7A8F3A4">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:30:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_USUARIO" id="7BD01545-A57B-BB64-D0E0-83961249B669">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:32:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>50B642A0-7753-705A-4736-90DACC3AE779</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D225E611-FD7D-4CB1-3175-0B1A3D28C99F" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+</associations>
+</Column>
+<Column name="COD_ISSUE" id="50077A3A-E519-D0F9-B0FA-173C3A20290C">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:31:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8843857A-4EFE-A1CD-39A4-69A8661232FB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1052579C-F123-34BF-E136-569429641651" referredColumn="8843857A-4EFE-A1CD-39A4-69A8661232FB"/>
+</associations>
+</Column>
+<Column name="COD_COMENTARIO_2" id="3E8FEF28-E955-49BB-34AE-05586ABAA4CA">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:32:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A0BA3E40-1107-6D82-8647-8F48F7A8F3A4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB568786-3FE5-E5A9-5703-8F3CE1546F77" referredColumn="A0BA3E40-1107-6D82-8647-8F48F7A8F3A4"/>
+</associations>
+</Column>
+<Column name="TEXTO" id="6AD82B23-3DBE-96AA-2D71-BAB3C5497955">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:30:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_COMENTO" id="E59A786D-37E3-17B2-3A46-49CB4BE9C887">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:30:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77D9DBA3-431A-E042-6730-31997AC90CF7" name="TLB_COMENTARIOS_PK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:30:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0BA3E40-1107-6D82-8647-8F48F7A8F3A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B8551B2-DC25-ED44-B470-9330F4EE16F1" name="TLB_COMENTARIOS_TLB_ISSUE_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:31:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50077A3A-E519-D0F9-B0FA-173C3A20290C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6136F4A8-FE10-2541-B433-50C8AF9E30D9" name="TLB_COMENTARIOS_TLB_USUARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:32:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BD01545-A57B-BB64-D0E0-83961249B669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DD0C4D3-5FEB-5D70-B3D9-9AEA24C7667F" name="TLB_COMENTARIOS_TLB_COMENTARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:32:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E8FEF28-E955-49BB-34AE-05586ABAA4CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

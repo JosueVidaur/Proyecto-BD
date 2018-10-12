@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB52437A-B01B-BB91-4A8B-8F04F5ADF11D" name="TLB_REACCIONES_TLB_USUARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:36:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<containerWithKeyObject>12B887C0-C457-18D9-3408-99AC9F2A229D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>2E5C1C89-E596-6D3A-D010-A3E009DD83D4</localFKIndex>
+<keyObject>A928E279-F90D-87DA-0C67-65DBC249056C</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

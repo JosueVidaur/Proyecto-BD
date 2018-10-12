@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO RELACIONAL" id="2E469EE5-A50E-682C-9F5E-3CED7ECC2E7C" version="3.5">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 20:26:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2E469EE5-A50E-682C-9F5E-3CED7ECC2E7C</designId>
+</OSDM_Design>

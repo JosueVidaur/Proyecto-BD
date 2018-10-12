@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="77764956-F9A8-5A24-1813-212559E0795C" name="TBL_REPOSITORIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="89BFDAD9-A4B0-BD3A-9F1F-B515329C158C" name="TLB_ARCHIVO" seqName="seg_0"/>
+   <object objectType="Table" objectID="25902172-EB7A-2C76-D376-6F659AB23C84" name="TLB_COMENTARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="E6C5C77F-548E-40A5-1A14-466AE7337A10" name="TLB_ESTRELLAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AD59B878-D2A0-D283-6CA4-F08329BB959F" name="TLB_ISSUE" seqName="seg_0"/>
+   <object objectType="Table" objectID="12B887C0-C457-18D9-3408-99AC9F2A229D" name="TLB_REACCIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="235795FB-8B0B-7799-6DEE-99A5076A9C39" name="TLB_USUARIOS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C764E587-BA32-5E9B-84DD-28E1C1BE0100" name="TBL_REPOSITORIOS_TLB_USUARIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BB568786-3FE5-E5A9-5703-8F3CE1546F77" name="TLB_COMENTARIOS_TLB_COMENTARIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1052579C-F123-34BF-E136-569429641651" name="TLB_COMENTARIOS_TLB_ISSUE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D225E611-FD7D-4CB1-3175-0B1A3D28C99F" name="TLB_COMENTARIOS_TLB_USUARIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0AB82BF4-FEA1-ACF4-41EB-6FE05E00B3FC" name="TLB_ESTRELLAS_TBL_REPOSITORIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="27FD620E-CC8D-35BC-3B54-7E61ABF5CF25" name="TLB_ESTRELLAS_TLB_USUARIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BBE6603F-6B4C-EB8B-FF58-D3630C62C7E0" name="TLB_ISSUE_TBL_REPOSITORIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2AF177F2-DE9B-9EEB-17E9-D31DF9BE81BF" name="TLB_REACCIONES_TLB_COMENTARIOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CB52437A-B01B-BB91-4A8B-8F04F5ADF11D" name="TLB_REACCIONES_TLB_USUARIOS_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

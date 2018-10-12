@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD59B878-D2A0-D283-6CA4-F08329BB959F" name="TLB_ISSUE">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:17:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ISSUE" id="8843857A-4EFE-A1CD-39A4-69A8661232FB">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REPOSITORIO" id="1A06B654-13E1-9DC6-AD3B-A057B75C3BA3">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B0AD4B08-380F-1894-AD69-4E77ED317B34</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBE6603F-6B4C-EB8B-FF58-D3630C62C7E0" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+</associations>
+</Column>
+<Column name="TITULO_ISSUE" id="4399B260-45BD-9B94-D4D2-34F72100A62C">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INCIO" id="D03D8E6F-1718-A4A0-636B-E21FFF3DFC88">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="A72D6854-41E9-CC9A-8544-A799BF30F640">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2825139-58D8-93E9-A376-C6AC244B23C1" name="TLB_ISSUE_PK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8843857A-4EFE-A1CD-39A4-69A8661232FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1446A18E-055B-6091-EDF0-5FDE19DC997C" name="TLB_ISSUE_TBL_REPOSITORIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 21:20:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A06B654-13E1-9DC6-AD3B-A057B75C3BA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

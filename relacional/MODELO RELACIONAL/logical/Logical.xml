@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0574E8A9-F909-8F07-9639-95337C814498" mainViewID="5D5F04A6-ED36-9AC2-0E72-29A5C47BE3EC">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-12 20:26:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

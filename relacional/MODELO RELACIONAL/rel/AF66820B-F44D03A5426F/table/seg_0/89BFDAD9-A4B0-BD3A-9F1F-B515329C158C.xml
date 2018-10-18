@@ -6,6 +6,7 @@
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="COD_ARCHIVO" id="1EFF8C50-E78A-F59A-2B50-77E213EA088E">
 <createdBy>Dell E6420</createdBy>
@@ -15,7 +16,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REPOSITORIO" id="DF7B2EEC-C5DD-B2B2-9120-C7121280B4A6">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-12 22:08:27 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B66E667-B02C-C2CA-75A4-683337F2933F" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+</associations>
 </Column>
 <Column name="NOMBRE_ARCHIVO" id="F2F2D281-DA60-3287-B313-0EAC7526135C">
 <createdBy>Dell E6420</createdBy>
@@ -26,6 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DIRECTORIO" id="AD10BD45-C3DC-B1C5-9009-2168BC70E57A">
@@ -33,11 +50,11 @@
 <createdTime>2018-10-12 21:44:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -52,6 +69,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1EFF8C50-E78A-F59A-2B50-77E213EA088E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="020ACACF-9427-B1BB-9F58-AFAE28D28D30" name="TLB_ARCHIVO_TBL_REPOSITORIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-12 22:08:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF7B2EEC-C5DD-B2B2-9120-C7121280B4A6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -6,6 +6,7 @@
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="COD_USUARIO" id="50B642A0-7753-705A-4736-90DACC3AE779">
 <createdBy>Dell E6420</createdBy>
@@ -15,6 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE_USUARIO" id="CA390F44-4434-3E70-73A1-C3358BA13CC6">
@@ -26,6 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="UBICACION" id="96D24212-AEE9-9B9C-381F-A9189339FE44">
@@ -38,6 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CONTRASENIA" id="EA257608-BC81-3F12-6BA7-962F9544FF7F">
@@ -49,6 +53,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="BIOGRAFIA" id="834EC04C-0EFE-2228-E405-0BFBE63D66DF">
@@ -61,6 +66,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FOTO_PERFIL" id="3598362E-8559-CF33-3FA3-86EA5241D03F">
@@ -72,6 +78,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="URL" id="D6D25C5D-C44D-0A66-3F61-30DA222CDEF8">
@@ -84,6 +91,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

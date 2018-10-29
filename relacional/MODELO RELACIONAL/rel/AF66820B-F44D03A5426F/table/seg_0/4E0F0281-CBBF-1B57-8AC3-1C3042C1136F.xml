@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E0F0281-CBBF-1B57-8AC3-1C3042C1136F" name="TBL_TIPO_DE_ORGANIZACIONES">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:28:28 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO_ORGANIZACION" id="040E1B16-F004-2CC5-7F91-05CB47F0857F">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:29:48 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ORGANIZACION" id="81E768AE-3E13-50B9-4287-EBF40013D54F">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:29:48 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_ORGANIZACIONES_COD_ORGANIZACION" id="015E68FE-8C21-3390-9268-5FD070EF11A3">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:30:01 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4CA668-5564-8624-2966-FDE175D52BAA" referredColumn="183F43EF-E891-CC25-7510-BD590E16319E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5AC9117-CEC0-3FE0-8BFC-12881A08F65E" name="TBL_TIPO_DE_ORGANIZACIONES_PK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:29:48 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="040E1B16-F004-2CC5-7F91-05CB47F0857F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="107B69BD-7F27-8EB8-05C3-A3322B890A12" name="TBL_TIPO_DE_ORGANIZACIONES_TBL_ORGANIZACIONES_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:30:01 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015E68FE-8C21-3390-9268-5FD070EF11A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3DF7E1B-73C3-F455-0DDE-4C46A8BAD240" containerWithKeyObject="4292A5FA-F5B8-B86D-04EF-D99234D232C1" localFKIndex="734A5DE9-F10C-E602-D9FA-1C4A6AFD1187" name="TBL_PAGES_TBL_WIKIS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:28:10 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<referredTableLongName>TBL_WIKIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D986F17F-ACFE-B4B9-7F73-750CF6F9CB8C</referredTableID>
+<keyObject>60544136-4672-CC97-E281-A1D8CC95223F</keyObject>
+<referredKeyID>60544136-4672-CC97-E281-A1D8CC95223F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_WIKI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

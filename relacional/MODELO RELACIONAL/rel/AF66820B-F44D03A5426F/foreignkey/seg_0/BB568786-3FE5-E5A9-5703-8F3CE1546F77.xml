@@ -1,14 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB568786-3FE5-E5A9-5703-8F3CE1546F77" name="TLB_COMENTARIOS_TLB_COMENTARIOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB568786-3FE5-E5A9-5703-8F3CE1546F77" containerWithKeyObject="25902172-EB7A-2C76-D376-6F659AB23C84" localFKIndex="2DD0C4D3-5FEB-5D70-B3D9-9AEA24C7667F" name="TLB_COMENTARIOS_TLB_COMENTARIOS_FK">
 <createdBy>Dell E6420</createdBy>
 <createdTime>2018-10-12 21:32:33 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<containerWithKeyObject>25902172-EB7A-2C76-D376-6F659AB23C84</containerWithKeyObject>
+<referredTableLongName>TLB_COMENTARIOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
-<localFKIndex>2DD0C4D3-5FEB-5D70-B3D9-9AEA24C7667F</localFKIndex>
+<referredTableID>25902172-EB7A-2C76-D376-6F659AB23C84</referredTableID>
 <keyObject>77D9DBA3-431A-E042-6730-31997AC90CF7</keyObject>
+<referredKeyID>77D9DBA3-431A-E042-6730-31997AC90CF7</referredKeyID>
 <mandatory>false</mandatory>
+<refColNames>COD_COMENTARIO</refColNames>
 <transferable>true</transferable>
+<rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

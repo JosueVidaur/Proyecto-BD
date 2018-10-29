@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CFE3EE8E-3C39-4F63-7D5A-7A86638CB08A" containerWithKeyObject="1F46A71E-2BB4-1D9B-DB06-A1C3BDF66874" localFKIndex="5903B113-30D8-7BDA-B1FB-8595865217CB" name="TLB_COMMIT_TLB_ARCHIVO_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:50:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<referredTableLongName>TLB_ARCHIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89BFDAD9-A4B0-BD3A-9F1F-B515329C158C</referredTableID>
+<keyObject>F76F21F4-083C-1788-D024-6A14390D8D94</keyObject>
+<referredKeyID>F76F21F4-083C-1788-D024-6A14390D8D94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_ARCHIVO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

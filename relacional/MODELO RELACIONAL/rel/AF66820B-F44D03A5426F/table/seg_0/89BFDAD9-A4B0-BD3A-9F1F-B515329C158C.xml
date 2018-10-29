@@ -57,6 +57,16 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="F428AF74-19D6-5DE5-7A9A-3D20EBBE081E">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-26 18:36:39 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F76F21F4-083C-1788-D024-6A14390D8D94" name="TLB_ARCHIVO_PK">

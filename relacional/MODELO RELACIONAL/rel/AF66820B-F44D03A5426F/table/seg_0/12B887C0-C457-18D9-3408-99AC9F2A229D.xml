@@ -6,6 +6,7 @@
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="COD_REACCION" id="E048D4D9-590F-CF45-4B58-730E72E70EA3">
 <createdBy>Dell E6420</createdBy>
@@ -15,6 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="COD_USUARIO" id="0A19CEA2-0F6D-96C9-BAF3-FD78E8283745">
@@ -25,7 +27,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>50B642A0-7753-705A-4736-90DACC3AE779</delegate>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -40,7 +42,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>A0BA3E40-1107-6D82-8647-8F48F7A8F3A4</delegate>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

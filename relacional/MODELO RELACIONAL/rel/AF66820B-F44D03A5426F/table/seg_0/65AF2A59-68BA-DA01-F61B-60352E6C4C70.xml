@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D986F17F-ACFE-B4B9-7F73-750CF6F9CB8C" name="TBL_WIKIS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65AF2A59-68BA-DA01-F61B-60352E6C4C70" name="TLB_CONTRIBUYENTES">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-12 22:22:23 UTC</createdTime>
+<createdTime>2018-10-25 18:31:46 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_10</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_WIKI" id="BCCF2F27-C1B6-3B39-4181-5778A157A273">
+<Column name="COD_REPOSITORIO" id="64E5EE6B-477A-F592-2A8E-5D470FA2FA42">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-12 22:23:19 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="COD_REPOSITORIO" id="38BDF3CA-A0F5-CBEC-8DC4-B8C3A6B432F4">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-12 22:23:45 UTC</createdTime>
+<createdTime>2018-10-25 18:33:30 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,13 +19,28 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6FB4D2D7-6297-D5C0-F50A-8C42060166A0" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+<colAssociation fkAssociation="B23E29C8-8BFD-614B-75EE-9CD803E21F80" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="01FFB15A-18A7-C036-CE0D-29DD3F12786B">
+<Column name="COD_USUARIO_CONTRIBUYENTE" id="89DD9EA9-B1A4-C439-FFCB-64A337F693E8">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-26 18:36:39 UTC</createdTime>
+<createdTime>2018-10-25 18:34:01 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A6C86A0-E834-B959-7939-8810C936C570" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_CONTRIBUIDORES" id="9299600D-13EC-771B-83E6-482DD25F6139">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:33:21 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -44,36 +49,38 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="60544136-4672-CC97-E281-A1D8CC95223F" name="TBL_WIKIS_PK">
+<ind_PK_UK id="2C25AAD1-1C17-CFCE-B459-8F9DEC2E4DEF" name="TLB_CONTRIBUYENTES_PK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-12 22:23:19 UTC</createdTime>
+<createdTime>2018-10-26 18:35:06 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BCCF2F27-C1B6-3B39-4181-5778A157A273"/>
+<colUsage columnID="64E5EE6B-477A-F592-2A8E-5D470FA2FA42"/>
+<colUsage columnID="89DD9EA9-B1A4-C439-FFCB-64A337F693E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A70C064-FC4B-C655-217A-A4D1D888E303" name="TBL_WIKIS__IDX">
+<ind_PK_UK id="F90E7F89-4F4C-DA81-C269-8CC546EC1F40" name="TLB_CONTRIBUYE_TBL_REPOSITORIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-12 22:24:20 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="38BDF3CA-A0F5-CBEC-8DC4-B8C3A6B432F4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B3355667-EC26-7991-10AD-0E901CD1231F" name="TBL_WIKIS_TBL_REPOSITORIOS_FK">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-12 22:23:45 UTC</createdTime>
+<createdTime>2018-10-25 18:33:30 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="38BDF3CA-A0F5-CBEC-8DC4-B8C3A6B432F4"/>
+<colUsage columnID="64E5EE6B-477A-F592-2A8E-5D470FA2FA42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C6CE9C-F8EC-A6F0-5108-1A12F93D0ED4" name="TLB_CONTRIBUYE_TLB_USUARIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:34:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89DD9EA9-B1A4-C439-FFCB-64A337F693E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

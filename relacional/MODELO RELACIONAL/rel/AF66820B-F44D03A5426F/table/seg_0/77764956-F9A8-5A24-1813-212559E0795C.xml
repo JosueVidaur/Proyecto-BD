@@ -6,6 +6,7 @@
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="COD_REPOSITORIO" id="B0AD4B08-380F-1894-AD69-4E77ED317B34">
 <createdBy>Dell E6420</createdBy>
@@ -15,6 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="COD_USUARIO" id="4E18C146-9001-3D93-DE64-3C409C264735">
@@ -25,7 +27,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>50B642A0-7753-705A-4736-90DACC3AE779</delegate>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -40,6 +42,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_INICIO" id="5253A670-F292-3618-57BA-66B671B9E298">
@@ -51,6 +54,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -65,6 +69,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82FE125A-77F6-FCA4-C17A-BACBD42B877E" name="TBL_REPOSITORIOS__UN">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-26 18:38:39 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E18C146-9001-3D93-DE64-3C409C264735"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="5D1F2D73-39E9-957E-56C3-49BDA925CFB9" name="TBL_REPOSITORIOS_TLB_USUARIOS_FK">

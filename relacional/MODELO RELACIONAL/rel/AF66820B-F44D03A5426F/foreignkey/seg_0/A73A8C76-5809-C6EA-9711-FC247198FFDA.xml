@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A73A8C76-5809-C6EA-9711-FC247198FFDA" containerWithKeyObject="25902172-EB7A-2C76-D376-6F659AB23C84" localFKIndex="46BD09E0-0B87-9942-7390-22A200C140BD" name="TLB_COMENTARIOS_TLB_COMMIT_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:47:02 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<referredTableLongName>TLB_COMMIT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F46A71E-2BB4-1D9B-DB06-A1C3BDF66874</referredTableID>
+<keyObject>588F56C4-6E8F-A260-964B-061B5C5685D5</keyObject>
+<referredKeyID>588F56C4-6E8F-A260-964B-061B5C5685D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_COMMIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

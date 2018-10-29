@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C764E587-BA32-5E9B-84DD-28E1C1BE0100" containerWithKeyObject="77764956-F9A8-5A24-1813-212559E0795C" localFKIndex="5D1F2D73-39E9-957E-56C3-49BDA925CFB9" name="TBL_REPOSITORIOS_TLB_USUARIOS_FK">
-<createdBy>Dell E6420</createdBy>
-<createdTime>2018-10-12 21:25:11 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63C948E9-FC9C-4186-3730-D5BD828B7F5E" containerWithKeyObject="07091004-F572-488F-3CDD-4E3A44B27049" localFKIndex="32B219E7-D703-DA17-95F9-59DC7FBC1E9B" name="TBL_SEGUIDORES_TLB_USUARIOS_FKv2">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:56:50 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <referredTableLongName>TLB_USUARIOS</referredTableLongName>

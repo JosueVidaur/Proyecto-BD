@@ -6,6 +6,7 @@
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="COD_ESTRELLA" id="9F8C681C-14E2-8343-4756-16A97C71B17E">
 <createdBy>Dell E6420</createdBy>
@@ -15,6 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="COD_REPOSITORIO" id="5C07D8FF-B4CB-F081-B373-675A287CB53E">
@@ -25,7 +27,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>B0AD4B08-380F-1894-AD69-4E77ED317B34</delegate>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -40,12 +42,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>50B642A0-7753-705A-4736-90DACC3AE779</delegate>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="27FD620E-CC8D-35BC-3B54-7E61ABF5CF25" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
+</Column>
+<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="95F48F63-D14B-91BD-854E-39CD612FDF80">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-26 18:36:39 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

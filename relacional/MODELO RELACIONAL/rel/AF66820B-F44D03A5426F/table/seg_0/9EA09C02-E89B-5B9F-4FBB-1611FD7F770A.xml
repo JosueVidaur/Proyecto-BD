@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EA09C02-E89B-5B9F-4FBB-1611FD7F770A" name="TLB_ORGANIZACIONES_X_USUARIO">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:07:50 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_USUARIO" id="F58C1DCC-E0F6-0E13-978E-3C566C75ADC8">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:09:49 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55DD3D7F-0E3E-7085-7C5F-5AA0886DCE88" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+</associations>
+</Column>
+<Column name="COD_ORGANIZACION" id="E86D308D-04FF-BB83-C877-592D33E4B035">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:10:15 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DA074F9-1705-87DC-DFB6-26C86656BA09" referredColumn="183F43EF-E891-CC25-7510-BD590E16319E"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="108092BE-7886-2901-749C-6E46E631A983">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:09:35 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="DE426A75-FA3E-66DA-87B9-094E1785CA6F">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:09:35 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF133635-D363-4B45-8226-BC1BB6CE1B87" name="TLB_ORGANIZACIONESXUSUARIO_PK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-26 18:32:47 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58C1DCC-E0F6-0E13-978E-3C566C75ADC8"/>
+<colUsage columnID="E86D308D-04FF-BB83-C877-592D33E4B035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAF9A9AE-801D-170A-9AB7-40F268D2F3FD" name="TLB_ORGANIZACIONESXUSUARIO_TLB_USUARIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:09:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58C1DCC-E0F6-0E13-978E-3C566C75ADC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8983DBE-C2B8-A89C-119F-F5CE3AC500E7" name="TLB_ORGANIZACIONESXUSUARIO_TBL_ORGANIZACIONES_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:10:15 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E86D308D-04FF-BB83-C877-592D33E4B035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

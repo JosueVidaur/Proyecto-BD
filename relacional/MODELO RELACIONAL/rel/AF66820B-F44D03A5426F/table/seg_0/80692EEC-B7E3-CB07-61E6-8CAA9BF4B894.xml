@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80692EEC-B7E3-CB07-61E6-8CAA9BF4B894" name="TBL_ORGANIZACIONES">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:53:55 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ORGANIZACION" id="183F43EF-E891-CC25-7510-BD590E16319E">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:01:21 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ORGANIZACION" id="D10BE5A9-8891-CC22-316D-DB7E2256E5A9">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:05:33 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILLING_EMAIL" id="8E09FAEF-335E-09D8-11DC-5C0F71472DB9">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:01:21 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_REPOSITORIOS_COD_REPOSITORIO" id="02E19CCD-5FCB-B656-1ADD-B4FC98960737">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:07:23 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBBFDDCE-8D17-086C-73D0-CCB9D3EB1441" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+</associations>
+</Column>
+<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="56473BB5-BD3C-8F83-217A-0250BFCB4954">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-26 18:36:39 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="685487E0-264D-405C-46DA-BDFA2981DE21" name="TBL_ORGANIZACIONES_PK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:01:21 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183F43EF-E891-CC25-7510-BD590E16319E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93BBD8EF-4A78-1C00-5BF6-69D70C5273B5" name="TBL_ORGANIZACIONES_TBL_REPOSITORIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:07:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E19CCD-5FCB-B656-1ADD-B4FC98960737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

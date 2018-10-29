@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FC5322C-CBA6-A47D-28CA-CCDB120E38BC" name="TBL_COMPRA">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:31:36 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_COMPRA" id="0B8EF055-8FE5-2160-0C05-1CA8C71FE938">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:32:29 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_USUARIO" id="B76C79B4-2A79-2ABF-1210-2B820CB89BF0">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:33:38 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86DE4A3C-F9DF-1521-A1C4-075D003B5608" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+</associations>
+</Column>
+<Column name="COD_ORGANIZACION" id="819856C5-E240-FA75-1386-BD88B7B52DBB">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:35:09 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02E794FB-7DA2-AADD-4092-D9DE8AAC9DEC" referredColumn="183F43EF-E891-CC25-7510-BD590E16319E"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="6765F281-8D23-EBC5-307E-1CC41AD1041E">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:32:29 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="34AC1222-9227-461E-98A4-F84BCA5E4AAD">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:32:29 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CVV" id="475CDBE8-D2F5-F64A-00D9-9350FD9CC264">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:32:29 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2A206CE-2C4C-FAFC-78D0-A3D3D12DECA6" name="TBL_COMPRA_PK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:33:28 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B8EF055-8FE5-2160-0C05-1CA8C71FE938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9468A103-8CB2-8957-FD47-AAB8ACD5BCC0" name="TBL_COMPRA_TLB_USUARIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:33:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B76C79B4-2A79-2ABF-1210-2B820CB89BF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CBED0E8-D358-CA1D-2062-DFA55304DE64" name="TBL_COMPRA_TBL_ORGANIZACIONES_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 19:35:09 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="819856C5-E240-FA75-1386-BD88B7B52DBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

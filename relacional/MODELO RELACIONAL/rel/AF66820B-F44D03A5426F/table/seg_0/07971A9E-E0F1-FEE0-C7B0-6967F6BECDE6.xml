@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07971A9E-E0F1-FEE0-C7B0-6967F6BECDE6" name="TLB_LUGARES">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:36:25 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_LUGAR" id="53DB2D9C-E666-C0BA-3793-675BA276D4C4">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:39:37 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_USUARIO" id="E72F5DD3-3803-CC6C-B1AD-7E5BBBEA74DA">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:37:36 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21E24E75-D672-3D5A-7E59-E4021C26F510" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+</associations>
+</Column>
+<Column name="COD_LUGAR_PADRE" id="55914459-82F7-6EA3-2D44-A481329435A8">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:39:45 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0832B68E-1061-0E31-D63F-C73ED3B16D36" referredColumn="53DB2D9C-E666-C0BA-3793-675BA276D4C4"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="0F6295F4-48D7-AD19-16C6-BFA25B1D10E4">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:37:21 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2056BC2-3F3D-AE91-BBB9-DB48B37CE890" name="TLB_LUGARES_PK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:39:37 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53DB2D9C-E666-C0BA-3793-675BA276D4C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71F0687E-FE81-B8D9-ED30-278BC42C6A15" name="TLB_LUGARES_TLB_USUARIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:37:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72F5DD3-3803-CC6C-B1AD-7E5BBBEA74DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CA38907-7AEE-8518-783E-C762DC2572AD" name="TLB_LUGARES_TLB_LUGARES_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:39:45 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55914459-82F7-6EA3-2D44-A481329435A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

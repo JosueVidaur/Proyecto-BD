@@ -57,6 +57,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DESCRIPCION_REPOSITORIO" id="3ACA5158-D007-294D-F977-950C2AA7EF02">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 03:57:22 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBSITE_URL" id="5F29A1C5-890F-7DBE-7BA3-74B96E488114">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 03:57:22 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6FC6F150-F5F5-3337-1A1C-EC8D33A47757" name="TBL_REPOSITORIOS_PK">

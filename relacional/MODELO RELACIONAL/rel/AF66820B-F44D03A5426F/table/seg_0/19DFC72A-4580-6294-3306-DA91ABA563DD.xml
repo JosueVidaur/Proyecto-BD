@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B61FC72-939E-F185-FBD3-E36C6F9F77D5" name="TBL_FORMA_PAGO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19DFC72A-4580-6294-3306-DA91ABA563DD" name="TBL_TOPICS">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:52:40 UTC</createdTime>
+<createdTime>2018-10-29 02:41:29 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <ordsAlias>table_22</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_FORMA_PAGO" id="65F74659-DD96-8A38-7BCC-0BE0DD714DF0">
+<Column name="COD_TOPIC" id="75F86F0A-33D0-A3D4-BCB0-CF8CD69D3988">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:24 UTC</createdTime>
+<createdTime>2018-10-29 02:42:16 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_COMPRA" id="3180452F-EB4B-70AB-B305-0D59C2DF2376">
+<Column name="COD_REPOSITORIO" id="8C66CE89-E1DB-E600-D10C-4A8EE078E564">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:29 UTC</createdTime>
+<createdTime>2018-10-29 02:43:07 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,14 +29,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7C854C51-59C3-731A-5FF7-EF28913A71CF" referredColumn="0B8EF055-8FE5-2160-0C05-1CA8C71FE938"/>
+<colAssociation fkAssociation="C45AC50E-F763-DF53-6B98-C0D34A1FE8B3" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
-<Column name="NOMBRE_TIPO_PAGO" id="6DA25A2F-3D9F-BD0B-FB85-5BC3A5ABA32E">
+<Column name="NOMBRE_TOPIC" id="9B4B99A7-CB0D-595A-F88E-FF56E9F5DDC6">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:24 UTC</createdTime>
+<createdTime>2018-10-29 02:42:16 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -46,25 +45,26 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="27AB4225-1023-25D5-FFED-4C13C80BEE76" name="TBL_FORMA_PAGO_PK">
+<ind_PK_UK id="F57671BA-5E8C-F458-3769-69E58A10A8F2" name="TBL_TOPICS_PK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:24 UTC</createdTime>
+<createdTime>2018-10-29 02:42:16 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="65F74659-DD96-8A38-7BCC-0BE0DD714DF0"/>
+<colUsage columnID="75F86F0A-33D0-A3D4-BCB0-CF8CD69D3988"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="62975A34-D901-CE8E-7DBD-724B833DA43A" name="TBL_FORMA_PAGO_TBL_COMPRA_FK">
+<ind_PK_UK id="EA9CB73C-A0CF-6B39-C2F4-6B86E3DE174C" name="TBL_TOPICS_TBL_REPOSITORIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:29 UTC</createdTime>
+<createdTime>2018-10-29 02:43:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3180452F-EB4B-70AB-B305-0D59C2DF2376"/>
+<colUsage columnID="8C66CE89-E1DB-E600-D10C-4A8EE078E564"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73A7649D-FF75-B1CF-634E-8914AC069204" containerWithKeyObject="73E42FAA-9335-6F82-AE03-1399436CBC6B" localFKIndex="9B333000-8A26-6B60-82D0-5786A6376B02" name="TBL_FORKS_TBL_REPOSITORIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 04:29:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<referredTableLongName>TBL_REPOSITORIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77764956-F9A8-5A24-1813-212559E0795C</referredTableID>
+<keyObject>6FC6F150-F5F5-3337-1A1C-EC8D33A47757</keyObject>
+<referredKeyID>6FC6F150-F5F5-3337-1A1C-EC8D33A47757</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_REPOSITORIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

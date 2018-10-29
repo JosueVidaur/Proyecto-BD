@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA0101F8-4589-F67B-922B-D69CF7573140" name="TLB_EQUIPO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C065D31-173C-D3DA-2146-6B5DAC55B34E" name="TBL_PLAN_PAGO">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:11:43 UTC</createdTime>
+<createdTime>2018-10-29 04:57:37 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_30</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_EQUIPO" id="C86B780C-2CE8-5174-6C42-60F411E4CC35">
+<Column name="COD_USUARIO" id="B617F112-8242-803F-B3D5-786656C5D1A4">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="COD_ORGANIZACION" id="39DC0B7B-0D79-D710-673D-589F043F8607">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:08 UTC</createdTime>
+<createdTime>2018-10-29 04:57:58 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,14 +19,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9BF8428D-131C-9E49-58C2-9238D968DA96" referredColumn="183F43EF-E891-CC25-7510-BD590E16319E"/>
+<colAssociation fkAssociation="ED17A1DB-0145-ED07-B665-D421AE0B7156" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
 </Column>
-<Column name="COD_EQUIPO_ PADRE" id="CEB66FEC-7AE3-ACD4-AF93-A65374E2886E">
+<Column name="COD_FORMA_PAGO" id="ABD2DFCA-990C-2744-A22C-7067B88A1E92">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:33 UTC</createdTime>
+<createdTime>2018-10-29 04:59:34 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -44,62 +33,75 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="07B64215-A388-EEA6-E7D0-79A043BEC048" referredColumn="C86B780C-2CE8-5174-6C42-60F411E4CC35"/>
+<colAssociation fkAssociation="B6C8744A-063C-E8E6-0808-0CF3AB11F746" referredColumn="65F74659-DD96-8A38-7BCC-0BE0DD714DF0"/>
 </associations>
 </Column>
-<Column name="NOMBRE_EQUIPO" id="22A70A29-B1A2-7C89-ED5B-BAA4BFCE8328">
+<Column name="COD_TIEMPO_PAGO" id="FC0F37CA-8403-0F05-56DB-46FEBB1AE99A">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
+<createdTime>2018-10-29 05:03:50 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E230C46-88BB-C9D3-CF85-FD84124406B5" referredColumn="0665F792-0B6F-60A9-360B-0103DAF071F0"/>
+</associations>
 </Column>
-<Column name="DESCRIPCION " id="5C0EF01A-B069-5EBD-B38D-EB897D65CADE">
+<Column name="MONTO" id="8682C847-FF48-7743-1802-DBFE57B5389C">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
+<createdTime>2018-10-29 05:01:43 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="02B623DC-74B9-79FB-F3B6-EECEB89BD25B" name="TLB_EQUIPO_PK">
+<ind_PK_UK id="8942F588-EE38-6B8F-042A-DDFE2BDA757B" name="TBL_PLAN_PAGO_PK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
+<createdTime>2018-10-29 04:59:47 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C86B780C-2CE8-5174-6C42-60F411E4CC35"/>
+<colUsage columnID="B617F112-8242-803F-B3D5-786656C5D1A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FBB1CDE0-CC1F-8BFA-84FB-06B6495D83F4" name="TLB_EQUIPO_TBL_ORGANIZACIONES_FK">
+<ind_PK_UK id="54F05326-82C4-2854-4E00-B828E83ABDE3" name="TBL_PLAN_PAGO_TLB_USUARIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:08 UTC</createdTime>
+<createdTime>2018-10-29 04:57:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="39DC0B7B-0D79-D710-673D-589F043F8607"/>
+<colUsage columnID="B617F112-8242-803F-B3D5-786656C5D1A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D20B5D82-2C6A-C570-46ED-DB69AC007F90" name="TLB_EQUIPO_TLB_EQUIPO_FK">
+<ind_PK_UK id="41E3396D-1A24-5139-D4F5-B8202B44FABB" name="TBL_PLAN_PAGO_TBL_FORMA_PAGO_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:33 UTC</createdTime>
+<createdTime>2018-10-29 04:59:34 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CEB66FEC-7AE3-ACD4-AF93-A65374E2886E"/>
+<colUsage columnID="ABD2DFCA-990C-2744-A22C-7067B88A1E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B08040F-6ABD-AE00-BC42-753B2CAB5801" name="TBL_PLAN_PAGO_TBL_TIEMPO_PAGOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 05:03:50 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0F37CA-8403-0F05-56DB-46FEBB1AE99A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

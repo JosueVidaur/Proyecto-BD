@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36F310D0-EF9B-1F9D-9D05-F185CE02A779" containerWithKeyObject="7A7C07EA-5E27-EB13-E176-4F21B4CFA710" localFKIndex="F67191E7-8B53-9F2B-C257-F10A5F31BAD0" name="TBL_PULL_REQUESTS_TBL_BRANCHES_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 03:16:24 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<referredTableLongName>TBL_BRANCHES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20E1F372-7532-9759-1C4A-5F62D141A43C</referredTableID>
+<keyObject>B974C2E5-7490-BA3D-2366-3C267002E6CE</keyObject>
+<referredKeyID>B974C2E5-7490-BA3D-2366-3C267002E6CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_BRACH</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -49,13 +49,14 @@
 <colAssociation fkAssociation="27FD620E-CC8D-35BC-3B54-7E61ABF5CF25" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="95F48F63-D14B-91BD-854E-39CD612FDF80">
+<Column name="FECHA" id="51D5BAC9-66BD-B50E-36B9-0FAEA13C5290">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-26 18:36:39 UTC</createdTime>
+<createdTime>2018-10-29 02:35:32 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

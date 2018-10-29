@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F46A71E-2BB4-1D9B-DB06-A1C3BDF66874" name="TLB_COMMIT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20E1F372-7532-9759-1C4A-5F62D141A43C" name="TBL_BRANCHES">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:42:46 UTC</createdTime>
+<createdTime>2018-10-29 02:02:39 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<ordsAlias>table_12</ordsAlias>
+<ordsAlias>table_21</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_COMMIT" id="9AB413AD-0D40-F6E5-039F-BE15432F2890">
+<Column name="COD_BRACH" id="42BB7A44-4806-B7EE-976B-931DB6E66DAA">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:45:12 UTC</createdTime>
+<createdTime>2018-10-29 02:05:59 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_COMMIT_PADRE" id="7DAD1AEC-F071-A30B-CFAB-B7F6154BD979">
+<Column name="COD_BRACH_PADRE" id="913A001A-6BDD-72D0-436D-7A6D55CC60C8">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-29 02:08:55 UTC</createdTime>
+<createdTime>2018-10-29 03:09:25 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,12 +30,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CF261ED7-909F-9F49-C43A-100E86DDC7A4" referredColumn="9AB413AD-0D40-F6E5-039F-BE15432F2890"/>
+<colAssociation fkAssociation="72DF77D5-C707-394E-98E2-6968CA7446FF" referredColumn="42BB7A44-4806-B7EE-976B-931DB6E66DAA"/>
 </associations>
 </Column>
-<Column name="COD_REPOSITORIO" id="FB315F68-8B81-FE73-66B6-FD6A79AF4495">
+<Column name="COD_USUARIO" id="01BAB12D-9535-83C4-77EC-6A5E313AACB9">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:45:52 UTC</createdTime>
+<createdTime>2018-10-29 02:20:36 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,12 +44,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E972CF53-D525-047A-569D-D947C04A8E1E" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+<colAssociation fkAssociation="24364E6E-D6DF-62C2-C8E7-09FAFFA96D66" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
 </Column>
-<Column name="COD_USUARIO" id="6F692220-EFBD-3380-3036-285A2388448F">
+<Column name="COD_REPOSITORIO" id="4C9213AD-87E3-D366-EAD3-7699CB56E85C">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:48:37 UTC</createdTime>
+<createdTime>2018-10-29 02:23:27 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,26 +58,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CDD966B9-58D0-EE31-A187-BEB520E7D0C7" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
+<colAssociation fkAssociation="7E30D34E-20E1-39E4-8C31-AA27A85B393C" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
-<Column name="COD_ARCHIVO" id="08AABCA9-E7CD-3BE6-341F-459624A214E2">
+<Column name="NOMBRE_BRANCH" id="692280FD-BBD4-3FC1-4D38-78F404AB261B">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:50:03 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CFE3EE8E-3C39-4F63-7D5A-7A86638CB08A" referredColumn="1EFF8C50-E78A-F59A-2B50-77E213EA088E"/>
-</associations>
-</Column>
-<Column name="MENSAJE" id="CD8339A0-46B9-128B-853E-63E5C57A7793">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:45:12 UTC</createdTime>
+<createdTime>2018-10-29 02:05:59 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,70 +72,73 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FECHA" id="AE45B10D-3BC1-DC37-5AF1-DD12A237F697">
+<Column name="TBL_ESTADOS_COD_ESTADO" id="33CC0C0F-68BD-091B-9E0D-5F1F962DA5CA">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:45:12 UTC</createdTime>
+<createdTime>2018-10-29 03:30:09 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDA5A55B-A221-5A26-A83E-C81DEA6AB8C8" referredColumn="D86F369B-D6ED-7AA4-B839-01EE42CE5E32"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="588F56C4-6E8F-A260-964B-061B5C5685D5" name="TLB_COMMIT_PK">
+<ind_PK_UK id="B974C2E5-7490-BA3D-2366-3C267002E6CE" name="TBL_BRANCHES_PK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:45:12 UTC</createdTime>
+<createdTime>2018-10-29 02:05:59 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9AB413AD-0D40-F6E5-039F-BE15432F2890"/>
+<colUsage columnID="42BB7A44-4806-B7EE-976B-931DB6E66DAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="13925823-6DE6-EA23-8411-3058A56A3603" name="TLB_COMMIT_TBL_REPOSITORIOS_FK">
+<ind_PK_UK id="72768603-13F7-34F5-2D05-FC7250747D1B" name="TBL_BRANCHES_TLB_USUARIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:45:52 UTC</createdTime>
+<createdTime>2018-10-29 02:20:36 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FB315F68-8B81-FE73-66B6-FD6A79AF4495"/>
+<colUsage columnID="01BAB12D-9535-83C4-77EC-6A5E313AACB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A27C6782-9784-A747-5C4C-413E03FD5C65" name="TLB_COMMIT_TLB_USUARIOS_FK">
+<ind_PK_UK id="DB2E9A51-69E6-E0C4-35F6-9B0AFA797371" name="TBL_BRANCHES_TBL_REPOSITORIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:48:37 UTC</createdTime>
+<createdTime>2018-10-29 02:23:27 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6F692220-EFBD-3380-3036-285A2388448F"/>
+<colUsage columnID="4C9213AD-87E3-D366-EAD3-7699CB56E85C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5903B113-30D8-7BDA-B1FB-8595865217CB" name="TLB_COMMIT_TLB_ARCHIVO_FK">
+<ind_PK_UK id="F8EA0162-02B0-990B-71B9-AB6078CAF761" name="TBL_BRANCHES_TBL_BRANCHES_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:50:03 UTC</createdTime>
-<generatorID>Generado por el Usuario</generatorID>
+<createdTime>2018-10-29 03:09:25 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="08AABCA9-E7CD-3BE6-341F-459624A214E2"/>
+<colUsage columnID="913A001A-6BDD-72D0-436D-7A6D55CC60C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="465EDF2F-BBC8-055B-BAD6-473EFAC3F8E2" name="TLB_COMMIT_TLB_COMMIT_FK">
+<ind_PK_UK id="CE06816C-983A-4029-64E5-5DB5755CAEBC" name="TBL_BRANCHES_TBL_ESTADOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-29 02:08:55 UTC</createdTime>
+<createdTime>2018-10-29 03:30:09 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7DAD1AEC-F071-A30B-CFAB-B7F6154BD979"/>
+<colUsage columnID="33CC0C0F-68BD-091B-9E0D-5F1F962DA5CA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

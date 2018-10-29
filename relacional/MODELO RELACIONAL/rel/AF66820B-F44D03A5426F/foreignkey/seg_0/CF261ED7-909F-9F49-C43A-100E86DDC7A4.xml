@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A73A8C76-5809-C6EA-9711-FC247198FFDA" containerWithKeyObject="25902172-EB7A-2C76-D376-6F659AB23C84" localFKIndex="46BD09E0-0B87-9942-7390-22A200C140BD" name="TLB_COMENTARIOS_TLB_COMMIT_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF261ED7-909F-9F49-C43A-100E86DDC7A4" containerWithKeyObject="1F46A71E-2BB4-1D9B-DB06-A1C3BDF66874" localFKIndex="465EDF2F-BBC8-055B-BAD6-473EFAC3F8E2" name="TLB_COMMIT_TLB_COMMIT_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:47:02 UTC</createdTime>
+<createdTime>2018-10-29 02:08:55 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <referredTableLongName>TLB_COMMIT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

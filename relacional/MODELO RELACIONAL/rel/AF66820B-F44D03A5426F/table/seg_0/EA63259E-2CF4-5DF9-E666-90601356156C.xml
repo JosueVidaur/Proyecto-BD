@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B61FC72-939E-F185-FBD3-E36C6F9F77D5" name="TBL_FORMA_PAGO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA63259E-2CF4-5DF9-E666-90601356156C" name="TBL_TIPO_USUARIO">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:52:40 UTC</createdTime>
+<createdTime>2018-10-29 04:41:03 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<ordsAlias>table_22</ordsAlias>
+<ordsAlias>table_29</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_FORMA_PAGO" id="65F74659-DD96-8A38-7BCC-0BE0DD714DF0">
+<Column name="COD_TIPO_USUARIO" id="B958AAA1-23AA-9851-5962-01613CA28F5D">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:24 UTC</createdTime>
+<createdTime>2018-10-29 04:42:09 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_COMPRA" id="3180452F-EB4B-70AB-B305-0D59C2DF2376">
+<Column name="COD_USUARIO" id="B2A7428D-3949-3C54-9670-26CEB7B638D8">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:29 UTC</createdTime>
+<createdTime>2018-10-29 04:42:46 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,42 +29,42 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7C854C51-59C3-731A-5FF7-EF28913A71CF" referredColumn="0B8EF055-8FE5-2160-0C05-1CA8C71FE938"/>
+<colAssociation fkAssociation="24DF3AE1-10C0-0A46-08F4-C2B1328813E5" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
 </Column>
-<Column name="NOMBRE_TIPO_PAGO" id="6DA25A2F-3D9F-BD0B-FB85-5BC3A5ABA32E">
+<Column name="NOMBRE_TIPO_USUARIO" id="81872867-AF62-731C-FE03-6A77ACA4A548">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:24 UTC</createdTime>
+<createdTime>2018-10-29 04:42:09 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="27AB4225-1023-25D5-FFED-4C13C80BEE76" name="TBL_FORMA_PAGO_PK">
+<ind_PK_UK id="1F44A97B-5E70-0ABF-0D38-BDDF9C6DB94D" name="TBL_TIPO_USUARIO_PK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:24 UTC</createdTime>
+<createdTime>2018-10-29 04:42:09 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="65F74659-DD96-8A38-7BCC-0BE0DD714DF0"/>
+<colUsage columnID="B958AAA1-23AA-9851-5962-01613CA28F5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="62975A34-D901-CE8E-7DBD-724B833DA43A" name="TBL_FORMA_PAGO_TBL_COMPRA_FK">
+<ind_PK_UK id="144A8389-1106-1E9B-C992-3620E05C4F23" name="TBL_TIPO_USUARIO_TLB_USUARIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:53:29 UTC</createdTime>
+<createdTime>2018-10-29 04:42:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3180452F-EB4B-70AB-B305-0D59C2DF2376"/>
+<colUsage columnID="B2A7428D-3949-3C54-9670-26CEB7B638D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

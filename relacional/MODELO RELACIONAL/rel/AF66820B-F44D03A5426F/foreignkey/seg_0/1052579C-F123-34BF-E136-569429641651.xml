@@ -9,7 +9,7 @@
 <referredTableID>AD59B878-D2A0-D283-6CA4-F08329BB959F</referredTableID>
 <keyObject>D2825139-58D8-93E9-A376-C6AC244B23C1</keyObject>
 <referredKeyID>D2825139-58D8-93E9-A376-C6AC244B23C1</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>COD_ISSUE</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

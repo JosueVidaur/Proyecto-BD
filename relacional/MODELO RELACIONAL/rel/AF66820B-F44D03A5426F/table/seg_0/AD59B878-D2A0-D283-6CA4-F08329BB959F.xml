@@ -34,6 +34,30 @@
 <colAssociation fkAssociation="BBE6603F-6B4C-EB8B-FF58-D3630C62C7E0" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
+<Column name="COD_USUARIO" id="103F2D3B-45E2-A5CE-892E-46187DD3C11B">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-26 18:36:39 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_ESTADO" id="134470E7-D026-0A60-34E7-97726EE2F78C">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 03:25:26 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79E4F010-9D79-3112-898C-D5A75D4D4D6D" referredColumn="D86F369B-D6ED-7AA4-B839-01EE42CE5E32"/>
+</associations>
+</Column>
 <Column name="TITULO_ISSUE" id="4399B260-45BD-9B94-D4D2-34F72100A62C">
 <createdBy>Dell E6420</createdBy>
 <createdTime>2018-10-12 21:20:11 UTC</createdTime>
@@ -70,16 +94,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="103F2D3B-45E2-A5CE-892E-46187DD3C11B">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-26 18:36:39 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D2825139-58D8-93E9-A376-C6AC244B23C1" name="TLB_ISSUE_PK">
@@ -103,6 +117,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1A06B654-13E1-9DC6-AD3B-A057B75C3BA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42E62F0F-100D-3D51-4316-DD5A4E382EA5" name="TLB_ISSUE_TBL_ESTADOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 03:25:26 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="134470E7-D026-0A60-34E7-97726EE2F78C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

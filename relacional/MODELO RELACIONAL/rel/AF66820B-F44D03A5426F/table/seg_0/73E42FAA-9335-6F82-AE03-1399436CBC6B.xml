@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA0101F8-4589-F67B-922B-D69CF7573140" name="TLB_EQUIPO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73E42FAA-9335-6F82-AE03-1399436CBC6B" name="TBL_FORKS">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:11:43 UTC</createdTime>
+<createdTime>2018-10-29 04:23:24 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_28</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_EQUIPO" id="C86B780C-2CE8-5174-6C42-60F411E4CC35">
+<Column name="COD_FORK" id="3C380EC5-268B-F428-A23A-B9DF7457548B">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
+<createdTime>2018-10-29 04:31:12 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_ORGANIZACION" id="39DC0B7B-0D79-D710-673D-589F043F8607">
+<Column name="COD_USUARIO" id="E7774DD0-5204-D78E-9C91-11BE34BEB13E">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:08 UTC</createdTime>
+<createdTime>2018-10-29 04:29:42 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,77 +29,67 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9BF8428D-131C-9E49-58C2-9238D968DA96" referredColumn="183F43EF-E891-CC25-7510-BD590E16319E"/>
+<colAssociation fkAssociation="22EE44CC-BE5D-805F-F77D-9889A4F1CC6B" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
 </Column>
-<Column name="COD_EQUIPO_ PADRE" id="CEB66FEC-7AE3-ACD4-AF93-A65374E2886E">
+<Column name="COD_REPOSITORIO_FORKED" id="0E59402E-BD6A-64BC-12F2-F019FDC5FEAA">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:33 UTC</createdTime>
+<createdTime>2018-10-29 04:29:51 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73A7649D-FF75-B1CF-634E-8914AC069204" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
+</associations>
+</Column>
+<Column name="FECHA_FORK" id="ECE4A7B2-A51E-0BA3-5D72-4F34218E67CC">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-29 04:30:29 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="07B64215-A388-EEA6-E7D0-79A043BEC048" referredColumn="C86B780C-2CE8-5174-6C42-60F411E4CC35"/>
-</associations>
-</Column>
-<Column name="NOMBRE_EQUIPO" id="22A70A29-B1A2-7C89-ED5B-BAA4BFCE8328">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DESCRIPCION " id="5C0EF01A-B069-5EBD-B38D-EB897D65CADE">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="02B623DC-74B9-79FB-F3B6-EECEB89BD25B" name="TLB_EQUIPO_PK">
+<ind_PK_UK id="4C9279C6-09FD-2224-DC2D-D03A9590DC5F" name="TBL_FORKS_PK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:13:33 UTC</createdTime>
+<createdTime>2018-10-29 04:31:12 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C86B780C-2CE8-5174-6C42-60F411E4CC35"/>
+<colUsage columnID="3C380EC5-268B-F428-A23A-B9DF7457548B"/>
+<colUsage columnID="0E59402E-BD6A-64BC-12F2-F019FDC5FEAA"/>
+<colUsage columnID="E7774DD0-5204-D78E-9C91-11BE34BEB13E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FBB1CDE0-CC1F-8BFA-84FB-06B6495D83F4" name="TLB_EQUIPO_TBL_ORGANIZACIONES_FK">
+<ind_PK_UK id="F30F312D-646B-44EB-DAD7-1928E41ED4FC" name="TBL_FORKS_TLB_USUARIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:08 UTC</createdTime>
+<createdTime>2018-10-29 04:29:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="39DC0B7B-0D79-D710-673D-589F043F8607"/>
+<colUsage columnID="E7774DD0-5204-D78E-9C91-11BE34BEB13E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D20B5D82-2C6A-C570-46ED-DB69AC007F90" name="TLB_EQUIPO_TLB_EQUIPO_FK">
+<ind_PK_UK id="9B333000-8A26-6B60-82D0-5786A6376B02" name="TBL_FORKS_TBL_REPOSITORIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 19:14:33 UTC</createdTime>
+<createdTime>2018-10-29 04:29:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CEB66FEC-7AE3-ACD4-AF93-A65374E2886E"/>
+<colUsage columnID="0E59402E-BD6A-64BC-12F2-F019FDC5FEAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

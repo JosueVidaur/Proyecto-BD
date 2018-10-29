@@ -39,6 +39,7 @@
 <createdTime>2018-10-12 21:31:11 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -47,6 +48,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="1052579C-F123-34BF-E136-569429641651" referredColumn="8843857A-4EFE-A1CD-39A4-69A8661232FB"/>
+</associations>
+</Column>
+<Column name="COD_COMMIT" id="A655E665-A4ED-63A7-515C-91BC7D507A2A">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-10-25 18:47:02 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A73A8C76-5809-C6EA-9711-FC247198FFDA" referredColumn="9AB413AD-0D40-F6E5-039F-BE15432F2890"/>
 </associations>
 </Column>
 <Column name="COD_COMENTARIO_2" id="3E8FEF28-E955-49BB-34AE-05586ABAA4CA">
@@ -89,20 +105,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TLB_COMMIT_COD_COMMIT" id="A655E665-A4ED-63A7-515C-91BC7D507A2A">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-25 18:47:02 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A73A8C76-5809-C6EA-9711-FC247198FFDA" referredColumn="9AB413AD-0D40-F6E5-039F-BE15432F2890"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

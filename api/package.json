@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JosueVidaur/Proyecto-BD#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "oracledb": "^3.0.1"
   }
 }

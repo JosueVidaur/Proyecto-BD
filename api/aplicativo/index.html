@@ -1,6 +1,7 @@
 <html>
 <link rel="stylesheet" href="./css/master.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 <head>
 	<meta charset="UTF-8">
 	<title>Sign in</title>
@@ -20,12 +21,33 @@
 			</div>
 			<div class="auth-form px-3">
 				<label for="login-data">Username or email address</label>
-				<input class="form-control" type="text" name="username">
-				<label for="password">Password</label>
-				<input type="password" class="form-control" name="password">
-				<input type="submit" name="commit" value="Sign in" data-disable-with="Signing in..." tabindex="3" class="btn1 btn-primary1 btn-block1">
+				<input id="username" class="form-control" type="text" name="username">
+				<label id="password-label" for="password">Password</label>
+				<input id="password" type="password" class="form-control" name="password">
+				<input type="button" id="btn-sign" name="commit" value="Sign in" data-disable-with="Signing in..." tabindex="3" class="btn1 btn-primary1 btn-block1">
 		<form>
 	</div>
 	<p class="create-account">New to Github?  <a href="">Create an account.</a></p>
+	<script>
+		const username = document.getElementById('username').value;
+		const password = document.getElementById('password').value;
+		const button = document.getElementById('btn-sign');
+		
+
+
+		button.addEventListener('click', () => {
+			const data = {
+				username: document.getElementById('username').value,
+				password: document.getElementById('password').value
+		};
+			axios.post('/login', {
+				...data
+			}).then(result => {
+				console.log(result);
+			}).catch(error => {
+				console.log(error);
+			});
+		})
+	</script>
 </body>
 </html>

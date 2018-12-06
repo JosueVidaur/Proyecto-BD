@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD59B878-D2A0-D283-6CA4-F08329BB959F" name="TLB_ISSUE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD59B878-D2A0-D283-6CA4-F08329BB959F" name="TBL_ISSUE">
 <createdBy>Dell E6420</createdBy>
 <createdTime>2018-10-12 21:17:56 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>tlb_issue</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

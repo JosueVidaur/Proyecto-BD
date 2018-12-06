@@ -51,7 +51,9 @@
 <createdTime>2018-10-29 04:30:29 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

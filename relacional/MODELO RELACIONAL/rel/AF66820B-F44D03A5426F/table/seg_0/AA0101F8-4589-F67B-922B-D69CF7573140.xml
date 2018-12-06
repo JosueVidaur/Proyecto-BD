@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA0101F8-4589-F67B-922B-D69CF7573140" name="TLB_EQUIPO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA0101F8-4589-F67B-922B-D69CF7573140" name="TBL_EQUIPO">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-25 19:11:43 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>

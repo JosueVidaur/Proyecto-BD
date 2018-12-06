@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E30D34E-20E1-39E4-8C31-AA27A85B393C" containerWithKeyObject="20E1F372-7532-9759-1C4A-5F62D141A43C" localFKIndex="DB2E9A51-69E6-E0C4-35F6-9B0AFA797371" name="TBL_BRANCHES_TBL_REPOSITORIOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A50FD45E-AF71-77AE-9F38-5C33294213E2" containerWithKeyObject="20E1F372-7532-9759-1C4A-5F62D141A43C" localFKIndex="CF3261DC-6DC1-2BD4-FE81-869D2857D768" name="TBL_BRANCHES_TBL_REPOSITORIOS_FK">
 <createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-29 02:23:27 UTC</createdTime>
+<createdTime>2018-12-05 03:14:27 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
 <referredTableLongName>TBL_REPOSITORIOS</referredTableLongName>

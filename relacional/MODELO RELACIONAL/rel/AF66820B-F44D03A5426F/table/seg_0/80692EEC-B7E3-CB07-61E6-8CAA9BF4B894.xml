@@ -40,7 +40,7 @@
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_REPOSITORIO" id="02E19CCD-5FCB-B656-1ADD-B4FC98960737">
+<Column name="COD_REPOSITORIO" id="02E19CCD-5FCB-B656-1ADD-B4FC98960737">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-25 19:07:23 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
@@ -54,7 +54,7 @@
 <colAssociation fkAssociation="BBBFDDCE-8D17-086C-73D0-CCB9D3EB1441" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="56473BB5-BD3C-8F83-217A-0250BFCB4954">
+<Column name="COD_USUARIO" id="56473BB5-BD3C-8F83-217A-0250BFCB4954">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-26 18:36:39 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>

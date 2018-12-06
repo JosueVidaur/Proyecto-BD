@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89BFDAD9-A4B0-BD3A-9F1F-B515329C158C" name="TLB_ARCHIVO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89BFDAD9-A4B0-BD3A-9F1F-B515329C158C" name="TBL_ARCHIVO">
 <createdBy>Dell E6420</createdBy>
 <createdTime>2018-10-12 21:42:30 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>tlb_archivo</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -57,7 +58,7 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="F428AF74-19D6-5DE5-7A9A-3D20EBBE081E">
+<Column name="COD_USUARIO" id="F428AF74-19D6-5DE5-7A9A-3D20EBBE081E">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-26 18:36:39 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>

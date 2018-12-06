@@ -32,7 +32,7 @@
 <colAssociation fkAssociation="6FB4D2D7-6297-D5C0-F50A-8C42060166A0" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
-<Column name="TBL_REPOSITORIOS_COD_USUARIO" id="01FFB15A-18A7-C036-CE0D-29DD3F12786B">
+<Column name="COD_USUARIO" id="01FFB15A-18A7-C036-CE0D-29DD3F12786B">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-26 18:36:39 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>

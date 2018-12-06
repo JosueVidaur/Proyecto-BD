@@ -47,20 +47,6 @@
 <colAssociation fkAssociation="24364E6E-D6DF-62C2-C8E7-09FAFFA96D66" referredColumn="50B642A0-7753-705A-4736-90DACC3AE779"/>
 </associations>
 </Column>
-<Column name="COD_REPOSITORIO" id="4C9213AD-87E3-D366-EAD3-7699CB56E85C">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-29 02:23:27 UTC</createdTime>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7E30D34E-20E1-39E4-8C31-AA27A85B393C" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
-</associations>
-</Column>
 <Column name="NOMBRE_BRANCH" id="692280FD-BBD4-3FC1-4D38-78F404AB261B">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-29 02:05:59 UTC</createdTime>
@@ -72,7 +58,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_ESTADOS_COD_ESTADO" id="33CC0C0F-68BD-091B-9E0D-5F1F962DA5CA">
+<Column name="COD_ESTADO" id="33CC0C0F-68BD-091B-9E0D-5F1F962DA5CA">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-29 03:30:09 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>
@@ -84,6 +70,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EDA5A55B-A221-5A26-A83E-C81DEA6AB8C8" referredColumn="D86F369B-D6ED-7AA4-B839-01EE42CE5E32"/>
+</associations>
+</Column>
+<Column name="COD_REPOSITORIO" id="A203C158-D468-E24C-B792-46E5C4446799">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-12-05 03:14:27 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A50FD45E-AF71-77AE-9F38-5C33294213E2" referredColumn="B0AD4B08-380F-1894-AD69-4E77ED317B34"/>
 </associations>
 </Column>
 </columns>
@@ -110,17 +110,6 @@
 <colUsage columnID="01BAB12D-9535-83C4-77EC-6A5E313AACB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DB2E9A51-69E6-E0C4-35F6-9B0AFA797371" name="TBL_BRANCHES_TBL_REPOSITORIOS_FK">
-<createdBy>Rony.Vidaur</createdBy>
-<createdTime>2018-10-29 02:23:27 UTC</createdTime>
-<generatorID>Generado por el Usuario</generatorID>
-<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4C9213AD-87E3-D366-EAD3-7699CB56E85C"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="F8EA0162-02B0-990B-71B9-AB6078CAF761" name="TBL_BRANCHES_TBL_BRANCHES_FK">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-29 03:09:25 UTC</createdTime>
@@ -139,6 +128,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="33CC0C0F-68BD-091B-9E0D-5F1F962DA5CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF3261DC-6DC1-2BD4-FE81-869D2857D768" name="TBL_BRANCHES_TBL_REPOSITORIOS_FK">
+<createdBy>Rony.Vidaur</createdBy>
+<createdTime>2018-12-05 03:14:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A203C158-D468-E24C-B792-46E5C4446799"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -30,7 +30,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_ORGANIZACIONES_COD_ORGANIZACION" id="015E68FE-8C21-3390-9268-5FD070EF11A3">
+<Column name="COD_ORGANIZACION" id="015E68FE-8C21-3390-9268-5FD070EF11A3">
 <createdBy>Rony.Vidaur</createdBy>
 <createdTime>2018-10-25 19:30:01 UTC</createdTime>
 <ownerDesignName>MODELO RELACIONAL</ownerDesignName>

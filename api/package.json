@@ -1,0 +1,23 @@
+{
+  "name": "git-api",
+  "version": "1.0.0",
+  "description": "api para git app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosueVidaur/Proyecto-BD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosueVidaur/Proyecto-BD/issues"
+  },
+  "homepage": "https://github.com/JosueVidaur/Proyecto-BD#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
